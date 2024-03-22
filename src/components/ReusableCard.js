@@ -1,5 +1,8 @@
 function Card({name, movies}) {
-    const movieList = movies.map(movie => <li key={movie}>{movie}</li>)
+    const movieList = movies.map(movie => 
+      <li key={movie}>
+          {movie}
+      </li>)
     
     return (
       <article>
